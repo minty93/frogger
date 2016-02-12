@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Frogger</title>
+    <link rel="stylesheet" type="text/css" href="frogger.css">
+  </head>
+  <body>
+    <h3>Frogger</h3>
+
+    <div class="welcome revealed" >
+            <div class='panel-heading'>
+              <h1> Welcome to Frogger. </h1>
+            </div>
+            <div class='panel-content'>
+              <h4> Use the WASD keys to get your frog across the road
+                <br/>
+              Watch out for cars and trucks! </h4>
+              <h2> <div class="button"> Begin</div> </h2>
+            </div>
+            <h2>Created By Aarushi Jain</h2>
+            <a href="https://github.com/minty93/">Github</a>
+      </div>
+    <canvas id="canvas" class="canvas hidden" width="1000" height="700"></canvas>
+    <script>
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    </script>
+    <script src="vendor/jquery.js"></script>
+    <script type="application/javascript" src="lib/util.js"></script>
+    <script type="application/javascript" src="lib/movingObject.js"></script>
+    <script type="application/javascript" src="lib/truck.js"></script>
+    <script type="application/javascript" src="lib/game.js"></script>
+    <script type="application/javascript" src="lib/gameView.js"></script>
+    <script type="application/javascript" src="lib/car.js"></script>
+    <script type="application/javascript" src="lib/frog.js"></script>
+    <script type="application/javascript" src="vendor/key.js"></script>
+
+    <script type="application/javascript">
+    (function () {
+      var canvasEl =  document.getElementById("canvas");
+      var ctx = canvasEl.getContext("2d");
+      document.body.appendChild(canvasEl);
+      var game = new Frogger.Game();
+      new Frogger.GameView(game, ctx).start();
+    })();
+  </script>
+
+  </body>
+</html>
