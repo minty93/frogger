@@ -8,7 +8,7 @@ Graphics drawn directly on HTML Canvas element.
 
 Instructions
 
-Click [here](minty93.github.io/frogger) to play!
+Click [here](http://minty93.github.io/frogger) to play!
 
 Use arrow keys or WASD to move your frog around: ← ↑ → ↓
 
