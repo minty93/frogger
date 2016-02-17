@@ -1,5 +1,7 @@
 #Frogger
 
+Click [here](http://minty93.github.io/frogger) to play!
+
 ##Description
 
 The classic arcade game of Frogger!
@@ -7,8 +9,6 @@ Built using JavaScript and HTML.
 Graphics drawn directly on HTML Canvas element.
 
 Instructions
-
-Click [here](http://minty93.github.io/frogger) to play!
 
 Use arrow keys or WASD to move your frog around: ← ↑ → ↓
 
