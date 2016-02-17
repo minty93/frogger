@@ -1,6 +1,6 @@
-##Frogger
+#Frogger
 
-#Description
+##Description
 
 The classic arcade game of Frogger!
 Built using JavaScript and HTML.
