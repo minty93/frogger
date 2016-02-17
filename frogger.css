@@ -5,6 +5,7 @@ canvas {
   display: block;
   background: url('./images/image.jpg');
   margin: auto;
+  border: 1px solid black;
 }
 
 h3 {
@@ -51,6 +52,7 @@ h3 {
   .button:hover {
     opacity: 1;
     background: green;
+    cursor: pointer;
 
   }
 
@@ -67,5 +69,6 @@ h3 {
 }
 
 a:hover {
+  cursor: pointer;
   
 }
