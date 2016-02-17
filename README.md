@@ -16,5 +16,4 @@ Your goal is to get to the other side safe and sound!
 Watch out for cars and stay on the logs!
 Beware, if you make it to the other side, vehicles get faster!
 
-Screenshot
 ![Alt text](./images/img.png)
