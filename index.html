@@ -15,7 +15,7 @@
             <div class='panel-content'>
               <h4> Use the WASD/Arrow keys to get your frog across the road
                 <br/>
-              Watch out for cars and trucks! </h4>
+              Watch out for cars and trucks and stay on the logs! </h4>
               <h2> <div class="button"> Begin</div> </h2>
             </div>
             <h2>Created By Aarushi Jain</h2>
@@ -23,7 +23,24 @@
             <a href="https://www.aarushijain.me">Portfolio</a>
             <a href="https://www.linkedin.com/in/aarushij">LinkedIn</a>
       </div>
-    <canvas id="canvas" class="canvas hidden" width="1000" height="700"></canvas>
+
+
+      <div class="over hidden" >
+              <div class='panel-heading'>
+                <h1> Game Over! </h1>
+              </div>
+              <div class='panel-content'>
+                <h4> Don't worry, press begin to play again
+                  <br/>
+                Be careful for cars and trucks this time! </h4>
+                <h2> <div class="button">Begin</div> </h2>
+              </div>
+              <h2>Created By Aarushi Jain</h2>
+              <a href="https://github.com/minty93/">Github</a>
+              <a href="https://www.aarushijain.me">Portfolio</a>
+              <a href="https://www.linkedin.com/in/aarushij">LinkedIn</a>
+        </div>
+    <canvas id="canvas" class="canvas hidden" width="1000" height="700"><h2></h2></canvas>
     <script>
     var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
@@ -46,8 +63,6 @@
       var canvasEl =  document.getElementById("canvas");
       var ctx = canvasEl.getContext("2d");
       document.body.appendChild(canvasEl);
-      var game = new Frogger.Game();
-      new Frogger.GameView(game, ctx).start();
     })();
   </script>
 

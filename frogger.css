@@ -23,7 +23,7 @@ h3 {
   display: none;
 }
 
-.welcome {
+.welcome, .over {
     text-align: center;
     max-width:700px;
     width:90%;
@@ -72,4 +72,8 @@ a:hover {
   opacity: 1;
   background: green;
   cursor: pointer;
+}
+
+.welcome {
+  margin-top: 0px;
 }
