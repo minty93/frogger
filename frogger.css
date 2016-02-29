@@ -6,6 +6,7 @@ canvas {
   background: url('./images/image.jpg');
   margin: auto;
   border: 3px solid black;
+
 }
 
 h3 {
@@ -55,6 +56,23 @@ h3 {
     cursor: pointer;
 
   }
+
+  .button1 {
+    background: transparent;
+    border: 2px solid darkgreen;
+    color: black;
+    display: inline;
+    padding: 10px;
+    }
+
+    .button1:hover {
+      opacity: 1;
+      background: green;
+      cursor: pointer;
+
+    }
+
+
 
   a {
     text-decoration: none;
