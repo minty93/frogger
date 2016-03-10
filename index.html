@@ -5,7 +5,20 @@
     <title>Frogger</title>
     <link rel="stylesheet" type="text/css" href="frogger.css">
   </head>
-  <body>
+  <script>
+  function resizeCanvas() {
+    var canvs = document.getElementById("canvas");
+    debugger
+    if (window.innerWidth > 1000) {
+      canvs.width = 1000
+    }
+    else {
+      canvs.width =  (window.innerWidth);
+    }
+    canvs.height = 700*(canvas.width/1000);
+  }
+  </script>
+  <body  onload="resizeCanvas();">
     <h3>Frogger</h3>
 
     <div class="welcome revealed" >
@@ -40,7 +53,7 @@
               <a href="https://www.aarushijain.me">Portfolio</a>
               <a href="https://www.linkedin.com/in/aarushij">LinkedIn</a>
         </div>
-    <canvas id="canvas" class="canvas hidden" width="1000" height="700"><h2></h2></canvas>
+    <canvas id="canvas" class="canvas hidden"><h2></h2></canvas>
     <script>
     var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");

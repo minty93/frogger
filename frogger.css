@@ -4,6 +4,7 @@
 canvas {
   display: block;
   background: url('./images/image.jpg');
+  background-size: cover;
   margin: auto;
   border: 3px solid black;
 
